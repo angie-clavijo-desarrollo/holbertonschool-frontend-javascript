@@ -1,4 +1,4 @@
-export default function getListStudents(){
+export default function getListStudents() {
     const ArrayOfObjectStudents = [
         {   id: 1,
             firstName: 'Guillaume', 
@@ -10,6 +10,5 @@ export default function getListStudents(){
             firstName: 'Serena', 
             location: 'San Francisco' }
     ]
-
     return  ArrayOfObjectStudents
 }
