@@ -1,3 +1,4 @@
+/*promise all*/
 import { uploadPhoto, createUser } from './utils';
 
 export default function handleProfileSignup() {
@@ -7,7 +8,7 @@ export default function handleProfileSignup() {
     const resultlastName = result[1].lastName;
 
     console.log(`${resultBody} ${resultfirstName} ${resultlastName}`);
-  }).catch((error) => {
+  }).catch(error => {
     console.log('Signup system offline');
   });
 }
