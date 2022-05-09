@@ -15,7 +15,7 @@
     "node",
     "packege"
   ],
-  "author": "Laura Callejas <callejaslaura96@gmail.com>",
+  "author": "",
   "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.6.0",
